@@ -1,2 +1,2 @@
 # POSAPISimulator
-ingenico api simulator
+FCI POS API simulator

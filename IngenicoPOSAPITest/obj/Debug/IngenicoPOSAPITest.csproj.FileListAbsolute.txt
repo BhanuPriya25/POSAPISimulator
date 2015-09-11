@@ -1,0 +1,11 @@
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\bin\Debug\IngenicoPOSAPITest.exe.config
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.csprojResolveAssemblyReference.cache
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.InitForm.resources
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.Properties.Resources.resources
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.csproj.GenerateResource.Cache
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\bin\Debug\IngenicoPOSAPITest.exe
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\bin\Debug\IngenicoPOSAPITest.pdb
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.exe
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.pdb
+c:\users\anjani.kaushal\documents\visual studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.IngenicoPOSAPI_MAIN.resources
+C:\Users\anjani.kaushal\Documents\Visual Studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Debug\IngenicoPOSAPITest.frmTransactionRquest.resources

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8732/Design_Time_Addresses/MiddlewareServiceLib/MiddlewareService/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Utility" />
+  <xs:complexType name="TerminalStatusInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PosErrorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastTransactionAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="lastTransactionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastTransactionResponseCode" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Utility" minOccurs="0" name="middlewareAckCode" type="q1:MiddlewareAckCode" />
+      <xs:element minOccurs="0" name="reversalStatus" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="softwareVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="terminalStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TerminalStatusInfo" nillable="true" type="tns:TerminalStatusInfo" />
+  <xs:complexType name="TransactionInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="invoiceNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="privateData" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="transactionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionInfo" nillable="true" type="tns:TransactionInfo" />
+  <xs:complexType name="TxnResponseInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicationIdentifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApplicationName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthorizationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BatchNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DebitRequest" nillable="true" type="tns:TransactionInfo" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Utility" minOccurs="0" name="EntryMode" type="q2:txnResponseEntryMode" />
+      <xs:element minOccurs="0" name="InvoiceNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssuerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MerchantID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResponseCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResponseMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RetrivalReferenceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TerminalID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TerminalVerificationResult" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionCertificate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransactionStatusInformation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TxnResponseInfo" nillable="true" type="tns:TxnResponseInfo" />
+  <xs:complexType name="ReportResultInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="flag" type="xs:int" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Ingenico.Middleware.Utility" minOccurs="0" name="middlewareAckCode" type="q3:MiddlewareAckCode" />
+      <xs:element minOccurs="0" name="reportData" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportResultInfo" nillable="true" type="tns:ReportResultInfo" />
+</xs:schema>

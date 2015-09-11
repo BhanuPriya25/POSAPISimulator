@@ -1,0 +1,4 @@
+C:\Users\anjani.kaushal\Documents\Visual Studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\bin\Release\IngenicoPOSAPITest.exe.config
+C:\Users\anjani.kaushal\Documents\Visual Studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Release\IngenicoPOSAPITest.exe
+C:\Users\anjani.kaushal\Documents\Visual Studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\obj\Release\IngenicoPOSAPITest.pdb
+C:\Users\anjani.kaushal\Documents\Visual Studio 2013\Projects\IngenicoPOSAPITest\IngenicoPOSAPITest\bin\Release\FriendsIngenicoPOSAPITest.exe.config
